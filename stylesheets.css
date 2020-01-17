@@ -1,0 +1,142 @@
+.container-fluid{
+    padding: 0px;  
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+/* Global variables */
+.nav-link {
+    color: #000;
+    font-size: 15px;
+    margin-right: 0px;
+    line-height: 20px;
+    padding-right: 12px;   
+}
+/*nav*/
+.nav-icon--wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin-right: 20px;   
+}
+
+.nav-icon--wrap img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-menu-icon {
+    color: #000;
+    opacity: .55;
+    transition: opacity .5s linear;
+}
+
+.nav-menu-icon:hover {
+    opacity: 1;
+}
+
+/*Google img*/
+.google-img{
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 109px;
+    padding-bottom: 18px;
+}
+
+/*Input group*/
+.input-group{
+    max-width: 500px;
+    text-align: center;
+    display: inline-flex;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: white;
+}
+
+.input-group-prepend button{
+    background-color:white;
+    
+}
+
+
+
+/*Buttons*/
+.buttons {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 300px;
+    
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+ 
+/*Footer*/
+footer {
+    margin: 0px;
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4; 
+}
+
+.top-footer{
+    margin:0px;
+    text-align: left;
+}
+
+.bottom-footer{
+    margin: 0px;
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+#footer-right{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 13px;
+    color: rgba(0,0,0,.54);
+    word-spacing: 27px;
+}
+ 
+#footer-left{
+    padding-left: 2px;
+    float: left;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 13px;
+    white-space: nowrap;
+    color: rgba(0,0,0,.54);
+    word-spacing: 27px;
+}
+
+.link{
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+ 
